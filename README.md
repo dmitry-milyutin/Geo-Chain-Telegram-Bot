@@ -7,10 +7,6 @@
 
 A Python Telegram bot that plays a turn-based geography chain against the user: each city must start with the last letter of the previous one. Every turn pulls together data from four sources — GeoNames for city validation and coordinates, OpenWeatherMap for live conditions, Wikipedia for a summary, and Mistral AI for hints — with each user's game state stored in SQLite.
 
-<p align="center">
-  <img src="assets/demo.png" alt="Bot responding with a city, map location, live weather and Wikipedia info" width="380">
-</p>
-
 ## Features
 
 - **City validation** against the GeoNames dataset, so only real cities are accepted and none can be repeated within a game.
@@ -145,6 +141,11 @@ The SQLite database is created automatically on first run. Open your bot in Tele
 - Randomized bot responses so the same letter doesn't always get the same city
 - Inline buttons for hints and restarting
 - 24/7 hosted deployment
+
+<p align="center">
+  <img src="assets/demo.png" alt="Bot responding with a city, map location, live weather and Wikipedia info" width="380">
+</p>
+
 
 ## Author
 
